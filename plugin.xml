@@ -30,5 +30,7 @@
     <source-file src="src/android/com/android/plugins/wifidirect/library/ServiceData.java" target-dir="src/com/android/plugins/wifidirect/library/"/>
     <source-file src="src/android/com/android/plugins/wifidirect/library/WifiDirectNode.java" target-dir="src/com/android/plugins/wifidirect/library/"/>
     <source-file src="src/android/com/android/plugins/wifidirect/library/WiFiDirectNodeReceiver.java" target-dir="src/com/android/plugins/wifidirect/library/"/>
+    <source-file src="src/android/com/android/plugins/wifidirect/library/Listener.java" target-dir="src/com/android/plugins/wifidirect/library/"/>
+    <source-file src="src/android/com/android/plugins/wifidirect/library/Client.java" target-dir="src/com/android/plugins/wifidirect/library/"/>
   </platform>
 </plugin>

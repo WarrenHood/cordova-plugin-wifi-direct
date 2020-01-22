@@ -39,6 +39,15 @@ var WifiDirectNode = /** @class */ (function () {
     WifiDirectNode.prototype.shutdown = function (success, failure) {
         return exec(success, failure, 'WifiDirect', 'shutdown', []);
     };
+    WifiDirectNode.prototype.getNextMessage = function(success, failure) {
+        return exec(success, failure, 'WifiDirect', 'getNextMessage', []);
+    }
+    WifiDirectNode.prototype.sendMessage = function(msg, success, failure) {
+        return exec(success, failure, 'WifiDirect', 'sendMessage', [msg]);
+    }
+    WifiDirectNode.prototype.disconnectPeer = function(success, failure) {
+            return exec(success, failure, 'WifiDirect', 'disconnectPeer', []);
+        }
     return WifiDirectNode;
 }());
 module.exports = new WifiDirect();

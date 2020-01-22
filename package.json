@@ -1,17 +1,45 @@
 {
-  "name": "cordova-plugin-wifi-direct",
-  "version": "0.1.0",
-  "description": "Android wifi direct.",
+  "_from": "git+https://github.com/NeoLSN/cordova-plugin-wifi-direct.git",
+  "_id": "cordova-plugin-wifi-direct@0.1.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-wifi-direct",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/NeoLSN/cordova-plugin-wifi-direct",
+    "rawSpec": "https://github.com/NeoLSN/cordova-plugin-wifi-direct",
+    "saveSpec": "git+https://github.com/NeoLSN/cordova-plugin-wifi-direct.git",
+    "fetchSpec": "https://github.com/NeoLSN/cordova-plugin-wifi-direct.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/NeoLSN/cordova-plugin-wifi-direct.git#2c8552d2687df4ba906aaae5a3206e325c4a3a9d",
+  "_spec": "https://github.com/NeoLSN/cordova-plugin-wifi-direct",
+  "_where": "C:\\work\\git\\j5-mobile",
+  "author": {
+    "name": "Jason Yang"
+  },
+  "bugs": {
+    "url": "https://github.com/NeoLSN/cordova-plugin-wifi-direct/issues"
+  },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-wifi-direct",
     "platforms": [
       "android"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NeoLSN/cordova-plugin-wifi-direct.git"
+  "deprecated": false,
+  "description": "Android wifi direct.",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "typescript": "^2.5.2"
   },
+  "homepage": "https://github.com/NeoLSN/cordova-plugin-wifi-direct",
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -20,18 +48,15 @@
     "wifi-direct",
     "wifi"
   ],
-  "author": "Jason Yang",
   "license": "Apache",
-  "bugs": {
-    "url": "https://github.com/NeoLSN/cordova-plugin-wifi-direct/issues"
-  },
-  "homepage": "https://github.com/NeoLSN/cordova-plugin-wifi-direct",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "typescript": "^2.5.2"
+  "name": "cordova-plugin-wifi-direct",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeoLSN/cordova-plugin-wifi-direct.git"
   },
   "scripts": {
     "start": "gulp",
     "ts_build": "cp www_src/template.js www/wifi_direct.js; tsc --outFile output/output.js www_src/wifi_direct.ts; cat output/output.js >> www/wifi_direct.js"
-  }
+  },
+  "version": "0.1.0"
 }
